@@ -24,9 +24,23 @@
 # p no_mutate(b)
 # p b
 
-def add_three(number)
-  return number + 3
-  puts "hi"
+# def add_three(number)
+#   return number + 3
+#   puts "hi"
+# end
+#
+# returned_value = add_three(4)
+def add(a,b)
+  a + b
 end
 
-returned_value = add_three(4)
+def subtract(a,b)
+  a - b
+end
+
+def multiply(num1, num2)
+  num1 * num2
+end
+
+a = multiply(add(1,2), subtract(5,3))
+puts a
